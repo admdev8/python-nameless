@@ -1,4 +1,4 @@
-__version__ = '1.0.0'
+__version__ = '1.694.21'
 try:
     from ._nameless import longest  # noqa
 except ImportError:
