@@ -1,0 +1,17 @@
+[paths]
+source =
+   src
+   */site-packages
+
+[run]
+branch = true
+source =
+    nameless
+    tests
+parallel = true
+plugins = Cython.Coverage
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
